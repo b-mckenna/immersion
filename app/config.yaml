@@ -1,0 +1,5 @@
+# Parameters for checking video stream for distraction
+distraction_check:
+  interval_seconds: 10  # How frequently to check the video stream for a distraction in seconds
+  threshold: 0.5  # Threshold for classifying a frame as a distraction (0 to 1 scale)
+

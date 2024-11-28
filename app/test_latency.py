@@ -8,22 +8,21 @@ import time
 logging.basicConfig(level=logging.INFO)
 
 
-# Read image from local directory as cv2 frame
-image_path = 'test_image.jpg'
-frame = cv2.imread(image_path)
-
-if frame is None:
-    raise FileNotFoundError(f"Image not found at {image_path}")
-
-# Convert frame to base64 string
-_, buffer = cv2.imencode('.jpg', frame)
-frame_bytes = buffer.tobytes()
-
 user_task = "There's a woman in a hat"
 prompt = f"Is the following statement true? Respond with '1' for yes and '0' for no. DO NOT provide an explanation. For example '1'. Statement: {user_task}"
 
 i = 0
 while i < 10:
+    # Read image from local directory as cv2 frame
+    image_path = 'test_image.jpg'
+    frame = cv2.imread(image_path)
+
+    if frame is None:
+        raise FileNotFoundError(f"Image not found at {image_path}")
+
+    # Convert frame to base64 string
+    _, buffer = cv2.imencode('.jpg', frame)
+    frame_bytes = buffer.tobytes()
     try:
         start_time = time.time()
         result = ""

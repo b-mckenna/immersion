@@ -1,12 +1,43 @@
 from ollama import generate
 import time
 import cv2
-
+import csv
 import os
+import logging
 
-prompt = f"Is the following statement true? Respond with '1' for yes and '0' for no. DO NOT provide an explanation. For example '1'. Statement: {user_task}"
+from test_ui import TestUI
 
-images_folder = 'images'
+# Create the UI
+app = TestUI()
+
+# Update the text
+app.update_text("New text from other script!")
+
+# Run the application
+#app.run()
+
+
+prompt = f"Describe what the user is doing in this screenshot."
+
+
+def save_classification(filename, response, prompt, model):
+    try:
+        csv_file_path = "output/prompt_testing.csv"
+        with open(csv_file_path, mode='a', newline='') as csv_file:
+            fieldnames = ['filename', 'response', 'prompt', 'model']
+            writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+
+            if csv_file.tell() == 0:
+                writer.writeheader()
+            
+            writer.writerow({'filename': filename, 'response': response, 'prompt': prompt, 'model': model})
+
+    except Exception as e:
+        logging.error(f"Error saving classification to csv: {e}")
+        raise
+
+
+images_folder = 'output'
 for filename in os.listdir(images_folder):
     if filename.endswith('.jpg'):
         try:
@@ -24,13 +55,11 @@ for filename in os.listdir(images_folder):
                 images=[frame_bytes],
                 stream=False,
             ) 
-            print(f"File: {filename}, Response: {response['message']['content']}")
+            print(f"File: {filename}, Response: {response['response']}")
             end_time = time.time()
             latency = end_time - start_time
             print(f"Latency: {latency} seconds")
-            
-            # Add a small delay between requests
-            time.sleep(0.5)
+            save_classification(filename, response['response'], prompt, 'llama3.2-vision:11b-instruct-q4_K_M')
             
         except Exception as e:
             print(f"Error processing {filename}: {str(e)}")

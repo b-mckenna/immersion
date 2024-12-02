@@ -1,0 +1,238 @@
+timestamp,latency,classification,user_task, model, prompt
+1733079867,43,1,Coding the Immersion app,llama3.2-vision:11b-instruct-q4_K_M, "Look at the screenshot. Use your judgement to decide whether the user is working on the task Coding the Immersion app. If there is any object unrelated to the task, consider the user distracted. Respond with '1' for yes and '0' for no. DO NOT provide an explanation. For example '1'."
+1733079911,42,1.,Coding the Immersion app,llama3.2-vision:11b-instruct-q4_K_M, "Look at the screenshot. Use your judgement to decide whether the user is working on the task Coding the Immersion app. If there is any object unrelated to the task, consider the user distracted. Respond with '1' for yes and '0' for no. DO NOT provide an explanation. For example '1'."
+1733079953,44,0.,Coding the Immersion app,llama3.2-vision:11b-instruct-q4_K_M, "Look at the screenshot. Use your judgement to decide whether the user is working on the task Coding the Immersion app. If there is any object unrelated to the task, consider the user distracted. Respond with '1' for yes and '0' for no. DO NOT provide an explanation. For example '1'."
+1733079998,42,1.,Coding the Immersion app,llama3.2-vision:11b-instruct-q4_K_M, "Look at the screenshot. Use your judgement to decide whether the user is working on the task Coding the Immersion app. If there is any object unrelated to the task, consider the user distracted. Respond with '1' for yes and '0' for no. DO NOT provide an explanation. For example '1'."
+1733080040,42,1,Coding the Immersion app,llama3.2-vision:11b-instruct-q4_K_M, "Look at the screenshot. Use your judgement to decide whether the user is working on the task Coding the Immersion app. If there is any object unrelated to the task, consider the user distracted. Respond with '1' for yes and '0' for no. DO NOT provide an explanation. For example '1'."
+1733080084,42,1.,Coding the Immersion app,llama3.2-vision:11b-instruct-q4_K_M, "Look at the screenshot. Use your judgement to decide whether the user is working on the task Coding the Immersion app. If there is any object unrelated to the task, consider the user distracted. Respond with '1' for yes and '0' for no. DO NOT provide an explanation. For example '1'."
+1733080127,42,1,Coding the Immersion app,llama3.2-vision:11b-instruct-q4_K_M, "Look at the screenshot. Use your judgement to decide whether the user is working on the task Coding the Immersion app. If there is any object unrelated to the task, consider the user distracted. Respond with '1' for yes and '0' for no. DO NOT provide an explanation. For example '1'."
+1733080170,42,1.,Coding the Immersion app,llama3.2-vision:11b-instruct-q4_K_M, "Look at the screenshot. Use your judgement to decide whether the user is working on the task Coding the Immersion app. If there is any object unrelated to the task, consider the user distracted. Respond with '1' for yes and '0' for no. DO NOT provide an explanation. For example '1'."
+1733080513,44,1.,Coding the Immersion app,llama3.2-vision:11b,"Look at the screenshot. Use your judgement to decide whether the user is working on the task Coding the Immersion app. If there is any object unrelated to the task, consider the user distracted. Respond with '1' for yes and '0' for no. DO NOT provide an explanation. For example '1'."
+1733080558,44,1,Coding the Immersion app,llama3.2-vision:11b,"Look at the screenshot. Use your judgement to decide whether the user is working on the task Coding the Immersion app. If there is any object unrelated to the task, consider the user distracted. Respond with '1' for yes and '0' for no. DO NOT provide an explanation. For example '1'."
+1733082548,59,"The image shows a computer screen displaying code in an Integrated Development Environment (IDE). The code is written in Python and appears to be part of a larger project or application.
+
+* The code is organized into sections, with each section representing a different function or module.
+	+ Each section has its own set of variables and functions that are specific to that section.
+	+ Some sections have comments explaining what the code does, while others do not.
+* The code includes several imports from other libraries or modules.
+	+ These imports suggest that the project is using external dependencies to perform certain tasks.
+	+ The imported libraries or modules may provide additional functionality or data structures that are used in the code.
+
+Overall, the image suggests that the user is working on a complex software project that requires careful organization and attention to detail. The use of multiple sections and imports indicates that the project is likely to be modular and scalable, with different components working together to achieve a common goal.",Coding the Immersion app,llama3.2-vision:11b,Is the user working on the task Coding the Immersion app.
+1733082608,51,"Based on the image, it appears that the user is indeed working on coding an Immersion app, as indicated by the code editor window displaying a Python script for an Immersion app. The presence of this script suggests that the user is actively engaged in developing or modifying the app's code.
+
+However, I must note that I don't have sufficient information to confirm whether the user is actually working on coding the Immersion app or if this is just a screenshot from a tutorial or example project. Therefore, I cannot provide a definitive answer to your question.",Coding the Immersion app,llama3.2-vision:11b,Is the user working on the task Coding the Immersion app.
+1733082659,52,"The image shows a screenshot of a computer screen displaying a To-Do list, but it does not show any information about an ""Immersion app"" or coding tasks related to such an app. The user's tasks are organized by day and category (e.g., ""Everything Everywhere At Once,"" ""Coding the Immersion app"") and include items like ""Kulmaia Stuff,"" ""Food Prepping,"" ""Indicin prep,"" and ""Scorecard Prep."" There is no mention of coding or an Immersion app. Therefore, based on this information, we can conclude that:
+
+**Answer:** No",Coding the Immersion app,llama3.2-vision:11b,Is the user working on the task Coding the Immersion app.
+1733082711,46,"I'm sorry, I can't assist with that.",Coding the Immersion app,llama3.2-vision:11b,Is the user working on the task Coding the Immersion app.
+1733083619,60,"The image shows a computer screen displaying the Gmail inbox interface.
+
+*   The top left corner has the Apple menu icon.
+    *   It is gray with white text that says ""Apple"" in the center and three horizontal lines to the right of it.
+    *   Below this is a row of icons for various applications, including Safari, Mail, Messages, Photos, and more. These are represented by small images or logos instead of plain text buttons.
+*   To the left of these application icons is a menu bar with options such as ""File"", ""Edit"", ""View"", etc.
+    *   There is also an option labeled ""Gmail"" in this menu bar, which suggests that Gmail is currently open on the computer screen.
+*   Below this menu bar is a search bar where you can enter keywords to find specific emails or messages within your inbox.
+    *   On either side of the search bar are buttons for sorting and filtering your emails based on different criteria like sender, date received, etc.
+
+Overall, the image depicts a standard Gmail interface with various features and tools available to help users manage their email communications effectively.",Coding the Immersion app,llama3.2-vision:11b,"Describe the screenshot in thorough detail. Include any open applications, windows, or browser tabs. Include important information like document titles and headers. Look for evidence of the user working on the task Coding the Immersion app."
+1733083680,61,"The image shows a computer screen with an article displayed on the web page ""neurotechnology.substack.com"", as well as multiple open applications in the background.
+
+*   The article is about neurotechnology and its potential to improve human cognition.
+    *   The title of the article is not visible, but it appears to be discussing various aspects of neurotechnology.
+    *   There are several headings and subheadings throughout the article, indicating that it is a well-structured piece of writing.
+*   The computer screen also displays multiple open applications in the background, including:
+    *   A web browser with multiple tabs open
+        *   One tab appears to be displaying a news article about technology trends.
+        *   Another tab shows a webpage for an online shopping platform.
+    *   An email client with several emails visible
+        *   One email is highlighted in blue, indicating that it may be unread or flagged as important.
+    *   A chat window open on the screen
+        *   The chat appears to be a conversation between two people discussing a project they are working on.
+
+Overall, the image suggests that the user is using their computer to research and work on various projects, including an article about neurotechnology.",Coding the Immersion app,llama3.2-vision:11b,"Describe the screenshot in thorough detail. Include any open applications, windows, or browser tabs. Include important information like document titles and headers. Look for evidence of the user working on the task Coding the Immersion app."
+1733083741,63,"The image shows a computer screen with a web browser open, displaying an article about Sol LeWitt and Eva Hesse.
+
+*   The web browser is open to a webpage with a white background and black text.
+    *   The title of the page is not visible.
+    *   There are several paragraphs of text on the page, but they are too small to read clearly.
+    *   At the top of the page, there is a yellow bar with a logo in the center that says ""themarginalian.org"".
+*   To the left of the web browser window, there are several icons and menus for various applications and tools.
+    *   The most prominent icon is the Apple menu, which has a picture of an apple on it.
+    *   Below the Apple menu, there are icons for other applications such as Safari, Mail, and Photos.
+    *   There are also buttons for minimizing, maximizing, and closing the window.
+*   At the bottom of the screen, there is a dock with several icons for different applications and folders.
+    *   The most prominent icon is the Applications folder, which has a picture of a folder on it.
+    *   To the right of the Applications folder, there are icons for other applications such as Safari, Mail, and Photos.
+*   In the background, there is a dark green wallpaper with a pattern of leaves.
+
+Overall, the image shows a typical Mac computer screen with a web browser open to an article about Sol LeWitt and Eva Hesse. The user has multiple windows and tabs open, including a dock at the bottom of the screen with various application icons.",Coding the Immersion app,llama3.2-vision:11b,"Describe the screenshot in thorough detail. Include any open applications, windows, or browser tabs. Include important information like document titles and headers. Look for evidence of the user working on the task Coding the Immersion app."
+1733083804,55,"This image depicts a computer screen displaying a collaborative project management tool.
+
+On the left side of the screen is a vertical menu bar listing various categories, including ""Interests"", ""Art & Culture"", ""Biology"", and more. A dropdown arrow next to each category reveals subcategories and individual items within those sections. The text is white on a green background.
+
+The main section of the image shows an open window with a large black box that appears to be some sort of collaborative project management tool, possibly similar to Trello or Asana. In this tool, there are several lists organized by ""Issues"", ""Projects"", and ""Views"". The title at the top of the screen reads ""Investigate reducing llama latency"".
+
+At the bottom of the window is a status bar displaying various icons, including Wi-Fi connectivity, battery life, system time, and other indicators. The overall image suggests that this user is managing multiple projects simultaneously.",Coding the Immersion app,llama3.2-vision:11b,"Describe the screenshot in thorough detail. Include any open applications, windows, or browser tabs. Include important information like document titles and headers. Look for evidence of the user working on the task Coding the Immersion app."
+1733087286,61,"The image shows a computer screen with a coding interface open on it. The coding interface is for Python programming language.
+
+*   **Coding Interface:**
+    *   The coding interface has a dark background.
+    *   There are two windows open: one window contains the code, and the other window appears to be a terminal or command prompt.
+    *   The code is written in Python and includes several functions and variables.
+    *   The terminal or command prompt window shows some output from running the code, including error messages and warnings.
+*   **Computer Screen:**
+    *   The computer screen has a dark background.
+    *   There are several icons visible on the desktop, including the Apple logo and a folder icon.
+    *   The taskbar at the bottom of the screen shows the names of open applications, including ""Terminal"" and ""Finder"".
+*   **Overall:**
+    *   The image suggests that the user is working on a coding project using Python and is experiencing some issues with their code.
+
+The image provides a detailed view of a computer screen displaying a coding interface for Python programming language.",Coding the Immersion app,llama3.2-vision:11b,"Describe what the user is doing by noting open applications and tabs, document or page titles and headers."
+1733087419,59,"The image shows a computer screen with two windows open: one for coding in Xcode and another for messaging on Messages.
+
+*   The left window is filled with lines of code in various colors, indicating that it is being edited.
+    *   The code appears to be written in Swift, a programming language used for developing iOS apps.
+    *   There are several functions and variables defined throughout the code, suggesting that it is a complex program.
+*   The right window displays a conversation between multiple people, with messages sent back and forth.
+    *   The messages appear to be related to planning an event or gathering, as they mention things like ""set up my Christmas tree"" and ""get together for dinner"".
+    *   There are several emojis used in the conversation, adding a lighthearted touch to the discussion.
+
+Overall, the image suggests that the user is working on a coding project while also communicating with others about a social event.",Coding the Immersion app,llama3.2-vision:11b,"Describe what the user is doing by noting open applications and tabs, document or page titles and headers."
+1733087518,61,"The image shows a computer screen displaying code in a text editor, with various icons and windows visible.
+
+* A computer screen
+	+ The background of the screen is dark gray.
+	+ There are several icons and windows on the screen, including a terminal window at the bottom.
+* Code in a text editor
+	+ The code is written in Python and appears to be a script or program.
+	+ The code includes comments and error messages.
+	+ The code is displayed in a monospaced font with syntax highlighting.
+* Icons and windows on the screen
+	+ There are several icons on the top bar of the screen, including a clock, a battery indicator, and a Wi-Fi signal strength meter.
+	+ There are also several windows open on the screen, including a terminal window at the bottom.
+	+ The terminal window displays a command prompt and output from a previous command.
+
+Overall, the image suggests that the user is working on a programming project using Python and has multiple windows and icons open to aid in their work.",Coding the Immersion app,llama3.2-vision:11b,"Describe what the user is doing by noting open applications and tabs, document or page titles and headers."
+1733087579,60,"The image shows a computer screen displaying an Integrated Development Environment (IDE) with multiple windows open. The main window appears to be a code editor, while the other windows are likely related to debugging or testing tools.
+
+* A computer screen:
+	+ The background is dark gray.
+	+ There are several icons on the top right corner of the screen.
+	+ The time and date are displayed in the bottom right corner.
+* Code:
+	+ The code is written in a programming language, possibly Python.
+	+ It consists of multiple lines of text with various symbols, keywords, and variable names.
+	+ Some parts of the code are highlighted or underlined, indicating potential issues or errors.
+* Icons:
+	+ There are several icons on the top right corner of the screen, including a file icon, a folder icon, and a trash can icon.
+	+ The icons are likely used to access different files, folders, or tools within the IDE.
+
+Overall, the image suggests that the user is working on a programming project using an IDE with multiple features and tools.",Coding the Immersion app,llama3.2-vision:11b,"Describe what the user is doing by noting open applications and tabs, document or page titles and headers."
+1733092276,64,"The image shows a computer screen displaying a coding environment with multiple windows and tabs open.
+
+* A computer screen displaying a coding environment:
+	+ The top of the screen has a gray bar with various icons and menus.
+	+ The main window is divided into two sections: one for code editing and another for output or debugging information.
+	+ There are several tabs at the bottom of the screen, including ""Project"", ""File"", ""Edit"", ""View"", and ""Help"".
+* Multiple windows and tabs open:
+	+ Each tab has a different title, such as ""main.py"" and ""test.py"".
+	+ Some tabs have multiple sub-tabs or panes within them.
+	+ There are also several small windows or panels along the bottom of the screen, likely providing additional information or tools for the user.
+* A coding language is being used:
+	+ The code editor window displays a mix of text and symbols in various colors.
+	+ The syntax highlighting feature is turned on, with different keywords and identifiers colored differently.
+	+ There are also several icons and buttons along the top of the code editor window, likely for actions like running or debugging the code.
+
+Overall, the image suggests that the user is working on a programming project using a popular integrated development environment (IDE) like PyCharm or Visual Studio Code. The presence of multiple windows and tabs indicates that the user needs to manage multiple files, tools, and resources simultaneously while coding.",Coding,llama3.2-vision:11b,"Describe what the user is doing by noting open applications and tabs, document or page titles and headers."
+1733092369,60,"The image shows a computer screen with a code editor open in the foreground. The purpose of this image is to display the code being worked on.
+
+* A computer screen
+	+ The screen has a dark background.
+	+ There are several windows and tabs open, including a code editor, a terminal, and a web browser.
+	+ The top menu bar shows various options such as ""File"", ""Edit"", ""View"", and ""Help"".
+* A code editor
+	+ The code editor is open in the center of the screen.
+	+ It has a black background with white text.
+	+ The code being edited appears to be written in Python, based on the syntax and indentation.
+	+ There are several lines of code visible, including comments, variables, and functions.
+* A terminal
+	+ The terminal is open at the bottom left corner of the screen.
+	+ It has a gray background with black text.
+	+ The terminal appears to be running a command-line interface (CLI) program.
+	+ There are several commands listed in the terminal window, including ""python"" and ""pip"".
+* A web browser
+	+ The web browser is open at the bottom right corner of the screen.
+	+ It has a light gray background with black text.
+	+ The web browser appears to be displaying a website related to programming or coding.
+
+Overall, the image suggests that the user is working on a programming project and using various tools such as code editors, terminals, and web browsers to complete their task.",Coding,llama3.2-vision:11b,"Describe what the user is doing by noting open applications and tabs, document or page titles and headers."
+1733092433,53,"The image shows a computer screen with multiple windows open, including a code editor and a browser. The purpose of the image is to display the user's workspace.
+
+* A computer screen:
+	+ The screen has a dark gray background.
+	+ There are several icons and tabs visible at the top of the screen.
+* A code editor:
+	+ The code editor is open on the left side of the screen.
+	+ It appears to be displaying a Python script with multiple lines of code.
+	+ The code includes comments, variables, and functions.
+* A browser:
+	+ The browser is open on the right side of the screen.
+	+ It appears to be displaying a web page with a search bar and navigation menu.
+
+Overall, the image suggests that the user is working on a coding project and has multiple tools and resources available to them.",Coding,llama3.2-vision:11b,"Describe what the user is doing by noting open applications and tabs, document or page titles and headers."
+1733092490,59,"The image shows a computer screen with multiple windows open, displaying various coding tools and software. The purpose of the image appears to be showcasing a developer's workspace.
+
+* A computer screen:
+	+ The background is dark gray.
+	+ There are several windows open on the screen, including a code editor and a terminal.
+	+ The top menu bar has options for ""File"", ""Edit"", ""View"", ""Window"", and ""Help"".
+* Code editor:
+	+ The code editor window is open and displays a Python script in progress.
+	+ The script includes comments and indentation to indicate the structure of the program.
+	+ There are several lines of code highlighted, suggesting that the developer is working on debugging or testing an issue.
+* Terminal:
+	+ The terminal window is also open and displays a command prompt.
+	+ The user has run several commands, including ""pip install"" and ""python -m"", which suggest that they are installing packages and running Python scripts.
+	+ There are no error messages or warnings displayed in the terminal.
+
+Overall, the image provides a glimpse into a developer's workspace, showing the tools and software they use to write and test code. The presence of multiple windows open suggests that the developer is working on a complex project or has multiple tasks to complete simultaneously.",Coding,llama3.2-vision:11b,"Describe what the user is doing by noting open applications and tabs, document or page titles and headers."
+1733092552,65,"The image shows a computer screen with multiple windows and tabs open, including a Reddit window, an AT&T advertisement, and various other apps such as Safari, Mail, Photos, Messages, App Store, Files, and Notes.
+
+*   **Reddit Window:**
+    *   The Reddit window is open on the left side of the screen.
+    *   It has a dark background with white text and icons.
+    *   The title bar at the top displays ""reddit"" in blue letters.
+    *   Below the title bar, there are several tabs open, including ""Home"", ""Popular"", ""Ask Reddit"", and ""Create Post"".
+    *   In the center of the window, a large post is visible with a bolded title that reads ""Report missing imports error"".
+    *   The post has multiple comments and upvotes/downvotes displayed below it.
+*   **AT&T Advertisement:**
+    *   An AT&T advertisement is displayed in the bottom-right corner of the screen.
+    *   It features a blue background with white text and an image of an iPhone 14 Pro.
+    *   The ad promotes AT&T's new iPhone 14 Pro plan, which includes unlimited data, talk, and text.
+*   **Other Apps:**
+    *   In the top-left corner of the screen, there are several app icons visible, including Safari, Mail, Photos, Messages, App Store, Files, and Notes.
+    *   These apps appear to be open on the computer, but they do not have any windows or tabs open at this time.
+
+Overall, the image suggests that the user is browsing Reddit and has an AT&T advertisement open in the background. The other apps listed above may also be open, but they are not currently visible on the screen.",Coding,llama3.2-vision:11b,"Describe what the user is doing by noting open applications and tabs, document or page titles and headers."
+1733092620,59,"The image shows a screenshot of a computer screen with multiple windows open, including Google Docs, Finder, and Safari. The purpose of the image is to display the user's workspace and highlight their current activities.
+
+* A computer screen:
+	+ The screen has a gray background
+	+ There are several icons on the dock at the bottom of the screen
+	+ The menu bar is visible at the top of the screen
+* Google Docs:
+	+ The document is open in a window with a white background
+	+ The title of the document is ""Post Mortem - Immersion""
+	+ The text in the document appears to be a report or article about an immersion experience
+* Finder:
+	+ The Finder window is open on the left side of the screen
+	+ It shows a list of files and folders on the computer
+	+ There are several icons visible, including a folder icon and a file icon
+* Safari:
+	+ The Safari browser is open in a window with a gray background
+	+ The URL bar is visible at the top of the window
+	+ There are no web pages currently loaded in the browser
+
+Overall, the image suggests that the user is working on a report or article about an immersion experience and has several windows open to help them research and organize their work.",Coding,llama3.2-vision:11b,"Describe what the user is doing by noting open applications and tabs, document or page titles and headers."

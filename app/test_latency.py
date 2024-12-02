@@ -27,7 +27,7 @@ while i < 10:
         start_time = time.time()
         result = ""
         response = generate(
-            model='llama3.2-vision:11b-instruct-q4_K_M', 
+            model='llava', #llama3.2-vision:11b-instruct-q4_K_M
             prompt=prompt,
             images=[frame_bytes],
             stream=False
